@@ -1,0 +1,11 @@
+{
+  "apps" : [
+    {
+      "name" : "chat-server",
+      "script" : "dist/server.js",
+      "instances" : "1",
+      "out_file": "/dev/null",
+      "error_file": "/dev/null"
+    }
+  ]
+}
